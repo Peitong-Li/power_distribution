@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    <link href="css/font-awesome.min.css" rel="stylesheet">-->
+    <!-- //font-awesome icons -->
+    <!--stylesheets-->
+    <link href="http://localhost:8091/power_distribution/css/style.css" rel='stylesheet' type='text/css' media="all">
+    <script src="http://localhost:8090/film_1/js/jquery-1.8.3.js"></script>
+    <script>
+        // $(function () {
+        //         $("#loginBtn").click(function () {
+        //             var userName = $(".number-2").val();
+        //             var userPwd = $(".password-2").val();
+        //             console.log(userName);
+        //             console.log(userPwd);
+        //
+        //             $.ajax({
+        //                 type:'get',  //后台地址对应的接受方式
+        //                 url:'http://localhost:8091/power_distribution/login_2',
+        //                 data:{
+        //                     "userName":userName,
+        //                     "userPwd":userPwd
+        //                 },   //地址栏传值
+        //                 dataType:'json',
+        //                 success:function (result) {
+        //                     console.log(result);
+        //                 },
+        //                 error:function (result) {
+        //                     console.log(result);
+        //                 }
+        //
+        //             })
+        //         })
+        //
+        // })
+    </script>
+</head>
+<body>
+
+<div class="main">
+    <div class="word" style="display: inline-block">
+        <em>用户登录</em>
+    </div>
+    <span th:text="${errMsg}" style="float:right;color: red"></span>
+
+    <form action="http://localhost:8091/power_distribution/login_2" method="post">
+
+        <div class="number">
+            <img class="number-1" src="http://localhost:8091/power_distribution/image/number-logo.png" alt="">
+            <input class="number-2" name="userName" type="text" placeholder="输入用户名">
+        </div>
+        <div class="password">
+            <img class="password-1" src="http://localhost:8091/power_distribution/image/password-logo.png" alt="">
+            <input class="password-2" name="userPwd" type="password" placeholder="输入密码">
+        </div>
+        <a class="login" href="#">
+            <input class="login" id="loginBtn"  type="submit" value="登录">
+        </a>
+    </form>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+
+.item{
+	width: 98%;
+	height: 70rpx;
+	line-height: 70rpx;
+	border-bottom: 1px dotted #C8C7CC;
+	margin: 0rpx auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.item:active{
+	background-color: #F1F1F1;
+}
+.item_text{
+	/* height: 50rpx; */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 35rpx;
+}
+.item_time{
+	margin-left: 20rpx;
+	font-size: 30rpx;
+}
+button{
+	position: absolute;
+	height: 50rpx;
+	line-height: 50rpx;
+	bottom: 5rpx;
+	right: 5rpx;
+}
+

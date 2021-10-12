@@ -1,0 +1,13 @@
+
+.box{
+	width: 50%;
+	height: 300rpx;
+	background-color: yellow;
+}
+.img{
+	/* width: 50%; */
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+

@@ -1,0 +1,6 @@
+端口占用查询：
+netstat -aon|findstr "8091"
+out：   TCP    0.0.0.0:8082           0.0.0.0:0              LISTENING       10868
+
+端口查杀：
+taskkill /pid 10868 -f

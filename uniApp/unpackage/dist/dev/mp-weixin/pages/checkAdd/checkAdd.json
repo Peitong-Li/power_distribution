@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "巡检表单填写",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "dy-date-picker": "/components/lanxiujuan-dyDate/lanxiujuan-dyDate"
+  }
+}

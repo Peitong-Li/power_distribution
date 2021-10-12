@@ -1,0 +1,14 @@
+{
+	"name": "动态表单",
+	"main": "main.js",
+	"version": "1.0.2",
+	"description": "配电台区智能管理终端",
+	"keywords": [
+		"uniapp",
+		"uview",
+		"form-generator"
+	],
+	"dependencies": {
+		"uview-ui": "^1.8.4"
+	}
+}

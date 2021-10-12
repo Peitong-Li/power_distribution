@@ -1,0 +1,39 @@
+
+.funBody{
+	width: 95%;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.funItem{
+	width: 350rpx;
+	height: 155rpx;
+	margin-top: 20rpx;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+	background-color: #FFFFFF;
+	position: relative;
+}
+.itemIcon{
+	width: 140rpx;
+	height: 140rpx;
+	margin: 8rpx;
+	float: left;
+}
+.itemText{
+	position: absolute;
+	font-weight: 600;
+	font-size: 40rpx;
+	bottom: 28rpx;
+	right: 35rpx;
+}
+swiper-item{
+	background-color: #fff;
+}
+

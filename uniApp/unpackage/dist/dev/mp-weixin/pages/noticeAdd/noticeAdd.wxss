@@ -1,0 +1,34 @@
+
+text{
+	margin-left: 15rpx;
+}
+input{
+	width: 100%;
+	height: 70rpx;
+	line-height: 70rpx;
+	padding: 15rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	border: 1rpx solid #C0C0C0;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+}
+textarea{
+	width: 100%;
+	height: 800rpx;
+	padding: 15rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	border: 1rpx solid #C0C0C0;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+}
+button{
+	
+	width: 100%;
+}
+

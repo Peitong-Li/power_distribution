@@ -1,0 +1,83 @@
+
+.box_1{
+	width: 95%;height: 60rpx;
+	margin: 0 auto;
+	line-height: 60rpx;
+	background-color: #C0C0C0;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	margin-top: 0rpx;
+	margin-bottom: 20rpx;
+	/* display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap; */
+}
+.courtsSelect{
+	width: 35%;
+	height: 50rpx;
+	margin-bottom: 20rpx;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	float: left;
+	margin-top: 6rpx;
+	font-size: small;
+	margin-left: 25rpx;-webkit-box-sizing: border-box;box-sizing: border-box;
+}
+.text{
+	font-size: medium;
+	font-weight: bold;
+	float: left;
+	margin-left: 15rpx;
+}
+.box_1>view{
+	width: 34%;height: 45rpx;margin-top: 8rpx;background-color: #F8F8F8;-webkit-border-radius: 10rpx;border-radius: 10rpx;
+	line-height: 45rpx;float: left;
+}
+.itemCard{
+	width: 95%;height: 120rpx;background-color: #F1F1F1;
+	margin: 0rpx auto;
+	margin-bottom: 20rpx;
+	-webkit-border-radius: 15rpx;
+	        border-radius: 15rpx;
+	padding: 10rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.cardText{
+	font-size: 30rpx;
+	float: left;
+	font-weight: 600;
+}
+.cardText_2{
+	font-size: 30rpx;
+	float: left;
+}
+.cardTime{
+	font-size: 30rpx;
+	float: right;
+}
+.cardBtn{
+	width: 80rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	margin-top: 6rpx;
+	text-align: center;
+	font-size: 30rpx;
+	font-weight: bold;
+	float: right;
+	background-color: #4CD964;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+}
+.addBtn{
+	width: 95%;
+	position:fixed;
+	bottom: 0rpx;
+	/*居中
+ */
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+

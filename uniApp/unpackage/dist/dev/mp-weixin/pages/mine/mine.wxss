@@ -1,0 +1,65 @@
+
+.user_card{
+	background-color: #FFFFFF;
+	height: 200rpx;
+	line-height: 200rpx;
+}
+.userImage{
+	width: 130rpx;
+	height: 130rpx;
+	-webkit-border-radius: 200rpx;
+	        border-radius: 200rpx;
+	/* position: relative;
+	top: 50%; 
+	transform: translateY(-50%);
+	margin-left: 40rpx;
+	margin-right: 40rpx; */
+	margin: 35rpx;
+	margin-left: 40rpx;
+	float: left;
+}
+.userText{
+	float: left;
+	margin-left: 10rpx;
+	font-size: 40rpx;
+	font-weight: 600;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rightArrow{
+	width: 30rpx;
+	height: 30rpx;
+	position: relative;
+	top: 50%; /*偏移*/
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	margin-right: 40rpx;
+	float: right;
+}
+.item{
+	height: 120rpx;
+	line-height: 120rpx;
+	background-color: #FFFFFF;
+	/* border-bottom:  1rpx solid #333333; */
+}
+.itemIcon{
+	
+	width: 50rpx;
+	height: 50rpx;
+	margin: 35rpx;
+	margin-left: 45rpx;
+	float: left;
+}
+.itemText{
+	float: left;
+	font-size: medium;
+}
+#triangle-up{
+	    width:0;
+	    height:0;
+	    border-left:50px solid transparent;
+	    border-right:50px solid transparent;
+	    border-bottom:100px solid red;
+		background-color: #007AFF;
+}
+
+

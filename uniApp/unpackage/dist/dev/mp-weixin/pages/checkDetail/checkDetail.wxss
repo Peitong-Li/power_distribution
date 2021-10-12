@@ -1,0 +1,110 @@
+.tx_r {
+  line-height: 48px;
+  font-size: 15px;
+  font-weight: normal;
+  color: #848b9a;
+}
+.placeholder {
+  color: #b5b8c2;
+  font-size: 30rpx;
+}
+.fa-angle-right {
+  font-size: 36rpx;
+  padding-left: 12rpx;
+}
+
+
+.box_1{
+	width: 95%;height: 60rpx;
+	margin: 0 auto;
+	line-height: 60rpx;
+	/* background-color: #C0C0C0; */
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+}
+.courtsSelect{
+	width: 35%;
+	height: 50rpx;
+	margin-bottom: 20rpx;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	float: left;
+	margin-top: 6rpx;
+	font-size: small;
+	margin-left: 25rpx;-webkit-box-sizing: border-box;box-sizing: border-box;
+}
+.text{
+	font-size: medium;
+	font-weight: bold;
+	float: left;
+}
+.box_2{
+	width: 95%;
+	
+	margin: 20rpx auto;
+	overflow: hidden;
+	line-height: 60rpx;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+}
+.box_text{
+	font-size: medium;
+	font-weight: bold;
+	float: left;
+}
+.box_2_input{
+	width: 80%;
+	height: 60rpx;
+	margin: 0 auto;
+	border: 1rpx solid #DBDBDB;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	float: right;
+}
+.box_2_input>input{
+	height: 60rpx;
+	line-height: 60rpx;
+	margin-left: 15rpx;
+}
+.box_3,.box_4,.box_5{
+	width: 95%;
+	overflow: hidden;
+	/* background-color: #007AFF; */
+	margin: 20rpx auto;
+	line-height: 60rpx;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+}
+.box_3_input,.box_4_input{
+	width: 80%;
+	height: 190rpx;
+	margin: 0 auto;
+	/* background-color: #C8C7CC; */
+	border: 1rpx solid #DBDBDB;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	float: right;
+	padding-top: 9rpx;
+	padding-left: 15rpx;
+	padding-right: 15rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.box_5_input{
+	width: 80%;
+	height: 60rpx;
+	line-height: 60rpx;
+	margin: 0 auto;
+	/* background-color: #C8C7CC; */
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	float: right;
+	padding-top: 9rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border: 1rpx solid #DBDBDB;
+	padding-left: 20rpx;
+	text-align: left;
+}
+
+

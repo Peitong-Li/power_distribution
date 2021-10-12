@@ -1,0 +1,25 @@
+
+.item{
+	height: 110rpx;
+	line-height: 110rpx;
+	background-color: #FFFFFF;
+	/* border-bottom:  1rpx solid #333333; */
+}
+.itemText{
+	float: left;
+	margin-left: 40rpx;
+	font-size: medium;
+}
+.rightArrow{
+	width: 30rpx;
+	height: 30rpx;
+	position: relative;
+	top: 50%; /*偏移*/
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	margin-right: 40rpx;
+	float: right;
+}
+
+
+

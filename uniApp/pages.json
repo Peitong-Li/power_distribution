@@ -1,0 +1,305 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+				                    "titleNView": {
+				                        "buttons": [ 
+				                            {
+				                                "text": "搜索", 
+												"height": "100%",
+				                                "fontSize":"16",
+				                                "float": "right",
+				                                "color":"#fff"
+				                            }
+				                        ],
+				                        "searchInput":{
+												"align":"left",
+				                                "placeholder": "   请输入查找的信息",
+				                                "borderRadius":"50upx",
+				                                "backgroundColor": "#fff"
+				                            }
+				                    }
+				                }
+			}
+		},
+		{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户登录",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+            "path" : "pages/regist/regist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/function/function",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "功能管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/uploadPic/uploadPic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "台区上传",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons": [{
+						        "text": "上传", 
+						        "fontSize":"16",
+						        "float": "right",
+						        "color":"#fff",
+								"colorPressed":"yellow"
+						    }]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/viewPic/viewPic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting_updatePwd/setting_updatePwd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "密码修改",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/viewCourts/viewCourts",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "台区查看",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/deviceStatistics/deviceStatistics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设备统计",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/checkList/checkList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设备巡检",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"buttons": [{
+						        "text": "添加", 
+						        "fontSize":"16",
+						        "float": "right",
+						        "color":"#fff",
+								"colorPressed":"yellow"
+						    }]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/checkAdd/checkAdd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "巡检表单填写",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/dateDemo/dateDemo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/lanxiujuan-dyDate/lanxiujuan-dyDate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/checkDetail/checkDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userManagement/userManagement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+       
+        ,{
+            "path" : "pages/deviceMan/deviceMan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/noticeList/noticeList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "通知公告",
+                "enablePullDownRefresh": false
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/noticeAdd/noticeAdd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "通知发布",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/noticeDetail/noticeDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "通知",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/BaseInfo/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "台区基本信息",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/BaseInfo/XianSun",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "台区线损分析",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/BaseInfo/addBaseInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加台区基本信息",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/BaseInfo/updateBaseInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改基本信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#00aaff",
+		"backgroundColor": "#F8F8F8"
+		// "enablePullDownRefresh":true
+	},
+	"tabBar":{
+		"selectedColor":"#1296db",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/tabs/tab_home_1.png",
+				"selectedIconPath":"static/tabs/tab_home_2.png"
+			},
+			{
+				"pagePath":"pages/function/function",
+				"text":"功能",
+				"iconPath":"static/tabs/tab_fun_1.png",
+				"selectedIconPath":"static/tabs/tab_fun_2.png"
+			},
+			{
+				"pagePath":"pages/mine/mine",
+				"text":"我的",
+				"iconPath":"static/tabs/tab_mine_1.png",
+				"selectedIconPath":"static/tabs/tab_mine_2.png"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

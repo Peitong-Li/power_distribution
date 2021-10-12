@@ -1,0 +1,1 @@
+.user,.pwd,.tele{height:80rpx;border-bottom:1px solid #dbdbdb;margin-bottom:30rpx}.user:hover,.pwd:hover,.tele:hover{border-bottom:1px solid #0af}.Icon{margin:10rpx;width:60rpx;height:60rpx;float:left;margin-right:20rpx}.userName,.userPwd,.userPwd2,.Phone{float:left;height:80rpx}.body{padding:65rpx}.btn_submit{background-color:#0af;border-radius:50rpx}

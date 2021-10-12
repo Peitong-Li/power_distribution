@@ -1,0 +1,39 @@
+
+.user,.pwd{
+	height: 80rpx;
+	border-bottom:  1px solid #DBDBDB;
+	margin-bottom: 30rpx;
+}
+.user:hover,.pwd:hover{
+	border-bottom:  1px solid #00AAFF;
+}
+#userName,#userPwd{
+	float: left;
+	height: 80rpx;
+}
+.Icon{
+	margin: 10rpx;
+	width: 60rpx;
+	height: 60rpx;
+	float: left;
+	margin-right: 20rpx;
+}
+.body{
+	padding: 65rpx;
+}
+.text{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-top: 20rpx;
+}
+.btn_submit{
+	background-color: #00aaff;
+	-webkit-border-radius: 50rpx;
+	        border-radius: 50rpx;
+}
+
+

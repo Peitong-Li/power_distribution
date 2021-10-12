@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/regist/regist",
+    "pages/mine/mine",
+    "pages/function/function",
+    "pages/uploadPic/uploadPic",
+    "pages/viewPic/viewPic",
+    "pages/setting/setting",
+    "pages/setting_updatePwd/setting_updatePwd",
+    "pages/viewCourts/viewCourts",
+    "pages/deviceStatistics/deviceStatistics",
+    "pages/checkList/checkList",
+    "pages/checkAdd/checkAdd",
+    "pages/dateDemo/dateDemo",
+    "components/lanxiujuan-dyDate/lanxiujuan-dyDate",
+    "pages/checkDetail/checkDetail",
+    "pages/userManagement/userManagement",
+    "pages/deviceMan/deviceMan",
+    "pages/noticeList/noticeList",
+    "pages/noticeAdd/noticeAdd",
+    "pages/noticeDetail/noticeDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#00aaff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabs/tab_home_1.png",
+        "selectedIconPath": "static/tabs/tab_home_2.png"
+      },
+      {
+        "pagePath": "pages/function/function",
+        "text": "功能",
+        "iconPath": "static/tabs/tab_fun_1.png",
+        "selectedIconPath": "static/tabs/tab_fun_2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tabs/tab_mine_1.png",
+        "selectedIconPath": "static/tabs/tab_mine_2.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

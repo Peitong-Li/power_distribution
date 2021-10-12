@@ -1,0 +1,18 @@
+
+.pwd{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 25rpx;
+}
+text{
+	display: block;
+	font-size: large;
+	margin-bottom: 10rpx;
+}
+input{
+	border-bottom: 1rpx solid #555555;
+}
+input:hover{
+	border-bottom: 1rpx solid #007AFF;
+}
+
