@@ -35,6 +35,13 @@
 				</view>
 				<image class="rightArrow" src="../../static/mine/right_arrow.png"></image>
 			</view>
+			<view class="item" @click="toIP">
+				<image class="itemIcon" src="../../static/mine/list_logo.png" mode=""></image>
+				<view class="itemText">
+					配置服务器IP
+				</view>
+				<image class="rightArrow" src="../../static/mine/right_arrow.png"></image>
+			</view>
 		</view>
 
 		<view style="margin-top: 20rpx;" @click="toSetting">
@@ -85,6 +92,11 @@
 			toXiansun(){
 				uni.navigateTo({
 					url: '../BaseInfo/XianSun'
+				})
+			},
+			toIP(){
+				uni.navigateTo({
+					url: 'configuration_IP'
 				})
 			},
 			toSetting:function(){
