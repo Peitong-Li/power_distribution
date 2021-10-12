@@ -260,6 +260,14 @@
                 "enablePullDownRefresh": false
             }
             
+        },{
+            "path" : "pages/mine/configuration_IP",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "配置服务器IP",
+                "enablePullDownRefresh": false
+            }
+            
         }
     ],
 	"globalStyle": {
